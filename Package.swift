@@ -8,7 +8,7 @@ let package = Package(
         .library(name: "XMediatorUnityAds", targets: ["XMediatorUnityAdsTarget"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/Unity-Technologies/Unity-Ads-Swift-Package", exact: "4.20.1"),
+        .package(url: "https://github.com/Unity-Technologies/Unity-Ads-Swift-Package", exact: "4.20.0"),
         .package(url: "https://github.com/x3mads/xmediator-swift-package.git", .upToNextMajor(from: "1.47.0")),
     ],
     targets: [
@@ -26,8 +26,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "XMediatorUnityAds",
-            url: "https://ios-artifact-registry.x3mads.com/cocoapods/XMediatorUnityAds/XMediatorUnityAds-4.20.1.0.zip",
-            checksum: "285c55d1c375bba1300ec4f3248db1496f7051e85a06f98176d389f401b65942"
+            url: "https://ios-artifact-registry.x3mads.com/cocoapods/XMediatorUnityAds/XMediatorUnityAds-4.20.0.0.zip",
+            checksum: "7e862a8f9caf92f77de0c2d461999bc9fa6a949fc51e1086591200b19db447d2"
         ),
     ]
 )
