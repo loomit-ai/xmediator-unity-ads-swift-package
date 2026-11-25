@@ -18,7 +18,7 @@ To integrate `XMediatorUnityAds` into your Xcode project using Swift Package Man
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/x3mads/xmediator-unity-ads-swift-package", exact: "4.21.000")
+    .package(url: "https://github.com/x3mads/xmediator-unity-ads-swift-package", exact: "4.22.000")
 ]
 ```
 
